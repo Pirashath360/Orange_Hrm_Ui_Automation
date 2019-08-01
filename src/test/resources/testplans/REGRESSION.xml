@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="REGRESSION" verbose="1" configfailurepolicy="continue">
+    <test name="c">
+        <classes>
+            <class name="com.test.qa.test.PerformanceTest.KPIsAddTest"/>
+            <class name="com.test.qa.test.PerformanceTest.KPIsSearchPageWithJobTitleTest"/>
+            <class name="com.test.qa.test.PerformanceTest.KPIsAddTest"/>
+        </classes>
+    </test>
+</suite>
